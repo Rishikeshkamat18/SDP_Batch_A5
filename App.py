@@ -1,9 +1,9 @@
+import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
-import scikit-learn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
-import streamlit as st
+
 
 # Step 1: Data Preprocessing
 def preprocess_data(file_path):
